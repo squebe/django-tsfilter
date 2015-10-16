@@ -1,0 +1,15 @@
+# Set the default behavior to normalize all text files by default
+* text=auto
+
+# Text files to be normalized and converted to LF in the repo
+*.py text
+*.sh text
+*.md text
+*.in text
+
+# Text files to be convert to LF in the repo and CRLF in the working directory
+*.bat eol=crlf
+
+# Text files to be convert to LF in the repo and LF in the working directory
+*.sh eol=lf
+*.bash eol=lf
